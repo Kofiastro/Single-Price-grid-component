@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        Karlaa:('Karla','sans-serif'),
+        Karlaa:['Karla','sans-serif'],
       },
       colors: {
         //Primary 
