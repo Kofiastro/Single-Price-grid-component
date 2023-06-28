@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!--GoogleFonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Single Price Grid Component</title>
+</head>
+
+<body>
+  <main>
+    <!--Flex container-->
+    <div class="flex justify-center items-center bg-LightGray h-full md:h-screen">
+      <!--card-->
+      <div class="mx-10 my-2 bg-white md:mx-auto rounded-md md:max-w-2xl">
+        <!--FlexCard-->
+        <div class="flex flex-col p-8 md:flex-row ">
+          <!--Community Section-->
+          <div class="space-y-4 ">
+            <h1 class=" text-Cyan tracking-wide font-Karlaa font-semibold text-2xl">
+              Join our community
+            </h1>
+            <h2 class="text-BrightYellow font-Karlaa text-lg ">
+              30-day, hassle-free money back guarantee
+            </h2>
+            <p class="text-GrayishBlue font-Karlaa tracking-wider leading-7  text-md">
+              Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers
+              who are serious about honing their skills.
+            </p>
+          </div>
+        </div>
+        <!--Two_Grid_section-->
+        <div class=" grid gap-0 md:grid-cols-2 ">
+          <!--ColumnOne-->
+          <div class="bg-Cyan p-8 space-y-4 md:rounded-bl-md ">
+            <h1 class="text-lg text-white font-semibold font-Karlaa tracking-wider">Monthly Subscription</h1>
+            <div class="flex items-center space-x-3">
+              <h2 class="text-3 font-Karlaa font-semibold tracking-widest text-3xl text-white ">$29
+              </h2>
+              <span class="text-md font-Karlaa text-LightGray opacity-60 ">per month</span>
+            </div>
+            <p class="text-white font-Karlaa">Full access for less than $1 a day</p>
+            <button class="text-sm font-Karlaa text-center justify-center  w-full p-4 bg-BrightYellow tracking-wide rounded-md text-white font-semibold shadow-lg md:px-24">
+              Sign Up
+            </button>
+          </div>
+          <!--ColumnTw0-->
+          <div class="bg-Cyan p-8  text-white space-y-4  opacity-70 md:rounded-br-md">
+            <h1 class="text-xl font-Karlaa font-semibold text-left">
+              Why Us
+            </h1>
+            <p class="font-md font-Karlaa  text-LightGray tracking-wider md:leading-6 md:pr-10 opacity-70 ">Tutorials by industry
+              experts Peer & expert code
+              review Coding exercisesAccess to our GitHub reposCommunity
+              forum Flashcard decks New videos every week</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+   
+  </main>
+  <footer class="text-xs text-center ">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-Cyan" target="_blank">Frontend
+      Mentor</a>.
+    Coded by <a href="https://github.com/Kofiastro/" class="text-Cyan" target="_blank">Kofi Danso Amakye </a>.
+  </footer>
+    
+</body>
+
+</html>
