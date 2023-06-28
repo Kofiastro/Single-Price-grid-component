@@ -22,7 +22,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ### Links
 
 - Solution URL: [https://github.com/Kofiastro/Single-Price-grid-component)]
-- Live Site URL:[(https://creative-pothos-4005de.netlify.app/)]
+- Live Site URL:[(https://verdant-shortbread-8f97ef.netlify.app/)]
 
 ## My process
 Using Tailwindcss i have been able to work on designs much faster and i want to learn more by working on more projects at frontendmentor to help me be good at it.
